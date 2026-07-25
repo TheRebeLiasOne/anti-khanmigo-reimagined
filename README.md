@@ -8,15 +8,23 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 
 ## Your filter choices
 
-I've had to separate this into two filter list choices. Khanmigo is now more integrated into the software, and some features may be required to complete assignments.  
+Khanmigo is now more integrated into the software, and some features may be required to complete assignments. Therefore, the basic filter will only block non-essential features. I hope to make another filter focusing on other AI related features, but it might hinder the ability to complete assignments. Currently, it isn't available, and I can't guarantee it ever will be. 
 
-### Basic Filter: What It Blocks
+### Basic Filter
 The basic filter is focused on blocking non-essential AI features (those which aren't needed for assignments). This includes the following:
 * Khanmigo's avatar on the home screen
 * "Tutor me" option in the sidebar
 * Khanmigo options in the Activity History
 * Option to customize Khanmigo's avatar with gems.
-* Khanmigo tab in settings (where you personalize Khanmigo's voice. 
+* Khanmigo tab in settings (where you personalize Khanmigo's voice.
+
+### Legacy Filter
+> [!NOTE]
+> You probably don't need to use this.
+
+The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obselete for students. Personal accounts still have the old UI, but they don't need Khanmigo either.  
+
+For more info on the legacy filter, see the [old repo](https://github.com/TheRebeLiasOne/anti-khanmigo).
 
 ## Installation
 
