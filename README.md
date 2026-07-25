@@ -8,7 +8,7 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 
 ## Your filter choices
 
-I've had to separate this into two filter list choices. Khanmigo is more integrated into 
+I've had to separate this into two filter list choices. Khanmigo is now more integrated into the software, and some features may be required to complete assignments.  
 
 ### Basic Filter: What It Blocks
 The basic filter is focused on blocking non-essential AI features (those which aren't needed for assignments). This includes the following:
