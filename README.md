@@ -1,21 +1,32 @@
 # anti-khanmigo-reimagined
 uBlock Origin/AdBlock Plus filter to block Khanmigo crap on school accounts. Normally impossible to disable, as the settings page says that it can't be managed by people under 18. 
 
-This only blocks Khanmigo! If you want to block other things, I'd recommend checking out [Fanboy's Anti-AI Suggestion List](https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt). To add it, follow the same instructions listed below, but add https://raw.githubusercontent.com/easylist/easylist/refs/heads/master/fanboy-addon/fanboy_ai_suggestions.txt in addition to my link. 
-
 > [!WARNING]
 > **USE AT YOUR OWN RISK!** If you're modifying settings on a school device, I assume no responsibility for it or any trouble you might get into as a result. This is primarily intended as a resource for home computers accessing school accounts (if so allowed), or schools that don't have issues with custom AdBlock filters. 
 
 I'm still working on these filters, so not everything may be blocked yet. This is my ~~first~~ second time making a filter, so apologies if it looks duct taped together.
 
-## What it Blocks
+## Your filter choices
 
+I've had to separate this into two filter list choices. Khanmigo is more integrated into 
 
-### Not blocked
+### Basic Filter: What It Blocks
+The basic filter is focused on blocking non-essential AI features (those which aren't needed for assignments). This includes the following:
+* Khanmigo's avatar on the home screen
+* "Tutor me" option in the sidebar
+* Khanmigo options in the Activity History
+* Option to customize Khanmigo's avatar with gems.
+* Khanmigo tab in settings (where you personalize Khanmigo's voice. 
+
+## Advanced Filter
+> [!CAUTION]
+> This may block features required for assignments within Khan Academy. You have been warned.
+An advanced filter is planned to hide as many AI elements as possible, with the caveat that it might hide features that are required for assignments. Release date TBA.
 
 ## Installation
 
-For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?](https://github.com/TheRebeLiasOne/anti-khanmigo/blob/main/Why%20not%20ABP.md)
+> [!TIP]
+> This extension only filters Khanmigo. If you want to strip AI from other websites, see check out Fanboy's AI suggestions list. To add it, use the directions for your blocker below, and also add https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt. 
 
 ### uBlock Origin
 > [!NOTE]
@@ -23,7 +34,7 @@ For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?
 1. Click on the extension in your toolbar, and from the popout, click the cogwheels.
 2. Navigate to "filter lists" (not "my filters") tab.
 3. Scroll to the bottom and click "Import".
-4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt
+4. Paste the link: 
 6. Click "Apply Changes".
 7. You're done! It should show up in the "Custom" section on the filters page.
 8. You don't need to add Fanboy's list manually as it's already included under "EasyList - Annoyances". Just enable it from there. You'll manually add this to the other extensions though. 
@@ -36,7 +47,7 @@ For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?
 3. Scroll to the bottom and enable "Custom".
    *If prompted to allow user scripts*: Click the link to your browser's extension settings and toggle "Allow User Scripts".
 5. Now click on "Custom", and choose "Add Custom Filter".
-6. Paste https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt and click "Next".
+6. Paste  and click "Next".
 7. Check the "Trusted" box if desired, then click "Add".
 8. You're Done! The filter should appear in the custom list.
 
@@ -49,7 +60,7 @@ For details on why AdBlock Plus is *not* recommended, see [Why not AdBlock Plus?
 1. Click on the extension and click the cogwheel (settings) icon in the popout.
 2. On the left of the page, choose "Advanced".
 3. Scroll down and click "Add Filter List by URL".
-4. Paste the link: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo/refs/heads/main/anti-khanmigo-filter.txt, then choose "Add a Filter List". 
+4. Paste the link: , then choose "Add a Filter List". 
 6. You're done! It should be in the list alongside the default filters.
 
 **To update:** Revisit the "Advanced" page and find the filter, then click the cogwheel (settings) icon next to the filter and choose "Update Now". 
