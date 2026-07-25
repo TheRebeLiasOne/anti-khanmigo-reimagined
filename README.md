@@ -21,6 +21,7 @@ The basic filter is focused on blocking non-essential AI features (those which a
 ## Advanced Filter
 > [!CAUTION]
 > This may block features required for assignments within Khan Academy. You have been warned.
+
 An advanced filter is planned to hide as many AI elements as possible, with the caveat that it might hide features that are required for assignments. Release date TBA.
 
 ## Installation
