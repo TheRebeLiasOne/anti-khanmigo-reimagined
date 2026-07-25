@@ -18,50 +18,18 @@ The basic filter is focused on blocking non-essential AI features (those which a
 * Option to customize Khanmigo's avatar with gems.
 * Khanmigo tab in settings (where you personalize Khanmigo's voice. 
 
-### Advanced Filter
-> [!CAUTION]
-> This may block features required for assignments within Khan Academy. You have been warned.
-
-An advanced filter is planned to hide as many AI elements as possible, with the caveat that it might hide features that are required for assignments. Release date TBA.
-
 ## Installation
 
-> [!TIP]
-> This extension only filters Khanmigo. If you want to strip AI from other websites, see check out Fanboy's AI suggestions list. To add it, use the directions for your blocker below, and also add https://github.com/easylist/easylist/blob/master/fanboy-addon/fanboy_ai_suggestions.txt. 
+There are a couple of paths to installing this. One is much easier than the other. 
 
-### uBlock Origin
-> [!NOTE]
-> These instructions won't work on uBlock Origin Lite.
-1. Click on the extension in your toolbar, and from the popout, click the cogwheels.
-2. Navigate to "filter lists" (not "my filters") tab.
-3. Scroll to the bottom and click "Import".
-4. Paste the link: 
-6. Click "Apply Changes".
-7. You're done! It should show up in the "Custom" section on the filters page.
-8. You don't need to add Fanboy's list manually as it's already included under "EasyList - Annoyances". Just enable it from there. You'll manually add this to the other extensions though. 
+### Quick Install
 
-**To update:** Should update automatically. If you ever wish to check, navigate to the filters page and find the filter in your list then click the clock icon. (If there's a loading icon, it's already in the process of updating). 
+[Use this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo-reimagined%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-reimagined.txt&amp;title=Anti%20Khanmigo%20Reimagined) to add this filter to your adblocker quickly. 
 
-### AdGuard
-1. Open AdGuard. From the extension popout, click the cogwheel.
-2. On the left, click "Filters".
-3. Scroll to the bottom and enable "Custom".
-   *If prompted to allow user scripts*: Click the link to your browser's extension settings and toggle "Allow User Scripts".
-5. Now click on "Custom", and choose "Add Custom Filter".
-6. Paste  and click "Next".
-7. Check the "Trusted" box if desired, then click "Add".
-8. You're Done! The filter should appear in the custom list.
+### Manual Installation
 
-**To update:** open the extension popout then click the clockwise arrows at the top to check (it'll check for all enabled filters). If it's already checked, it may show as a green up arrow instead. AdGuard might not automatically install updates so it's important to check every once in a while.
+See the instructions for your adblocker below on manually adding the filter list. The link you'll need to use is: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-reimagined.txt
 
-### AdBlock Plus
-> [!NOTE]
-> Adblock Plus isn't recommended. For more info on why, see: . ABP instructions are included for convenience as it is the default at my school. 
-
-1. Click on the extension and click the cogwheel (settings) icon in the popout.
-2. On the left of the page, choose "Advanced".
-3. Scroll down and click "Add Filter List by URL".
-4. Paste the link: , then choose "Add a Filter List". 
-6. You're done! It should be in the list alongside the default filters.
-
-**To update:** Revisit the "Advanced" page and find the filter, then click the cogwheel (settings) icon next to the filter and choose "Update Now". 
+* [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
+* [AdGuard extension](https://adguard.com/kb/adguard-browser-extension/features/filters/#custom-filters)
+* [AdBlock Plus](https://help.adblockplus.org/adblock-plus-help-center/add-or-remove-a-custom-filter)
