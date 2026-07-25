@@ -8,7 +8,7 @@ I'm still working on these filters, so not everything may be blocked yet. This i
 
 ## Your filter choices
 
-I've had to separate this into two filter list choices. Khanmigo is now more integrated into the software, and some features may be required to complete assignments.  
+Khanmigo is now more integrated into the software, and some features may be required to complete assignments.  **For right now, only the basic filter exists**. I hope to make an advanced filter which tries to strip AI entirely, but unfortunately I don't have access to all features to know what to block. 
 
 ### Basic Filter: What It Blocks
 The basic filter is focused on blocking non-essential AI features (those which aren't needed for assignments). This includes the following:
@@ -17,12 +17,6 @@ The basic filter is focused on blocking non-essential AI features (those which a
 * Khanmigo options in the Activity History
 * Option to customize Khanmigo's avatar with gems.
 * Khanmigo tab in settings (where you personalize Khanmigo's voice. 
-
-### Advanced Filter
-> [!CAUTION]
-> This may block features required for assignments within Khan Academy. You have been warned.
-
-An advanced filter is planned to hide as many AI elements as possible, with the caveat that it might hide features that are required for assignments. Release date TBA.
 
 ## Installation
 
