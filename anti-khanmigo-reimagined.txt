@@ -3,7 +3,7 @@
 ! Description: Block Khanmigo on Khan Academy Classroom
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 1 day (update frequency)
-! Version: 1
+! Version: 2
 
 !! Khanmigo page - if document blocking doesn't work, just delete the chat input. 
 !! TODO: Hide all chat input buttons, not just the text field 
@@ -23,3 +23,5 @@ classroom.khanacademy.org##button:has-text("Writing Coach")
 classroom.khanacademy.org##button:has-text("Khanmigo activities")
 
 !! Khanmigo Sidebar
+classroom.khanacademy.org##main > div:has(canvas[data-testid="khanmigo-canvas"])
+classroom.khanacademy.org##main > div:has(input[aria-label="Resize panes by click-and-drag or arrow keys"])
