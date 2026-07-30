@@ -1,0 +1,18 @@
+[Adblock Plus 2.0]
+! Title: Anti-Khanmigo Gem Filter
+! Description: Block Gems on Khan Academy Classroom
+! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
+! Expires: 1 day (update frequency)
+! Version: 1
+
+!! -- Gems --
+
+!! Homepage
+classroom.khanacademy.org##aside > div > div:has-text("Gem challenge")
+classroom.khanacademy.org##button#gem-side-drawer-flyout-launcher
+
+!! Gem Card on Assignment Completion Screen
+classroom.khanacademy.org##li[aria-roledescription="carousel card"]:has-text("Gem challenge")
+
+!! Gems on Achievements screen
+classroom.khanacademy.org/learner/achievements##h2:has-text("Gem challenges"):upward(4)
