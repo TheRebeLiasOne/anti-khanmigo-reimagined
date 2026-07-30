@@ -18,6 +18,16 @@ The basic filter is focused on blocking non-essential AI features (those which a
 * Option to customize Khanmigo's avatar with gems.
 * Khanmigo tab in settings (where you personalize Khanmigo's voice.
 
+## Gem Filter
+Focuses on gem-related content. Specifically, it blocks:
+* Gems on the top right corner of the home page
+* Gems on the bottom right corner of the home page
+* The gem card on the "Assignment Completed" screen
+* Gem statistics on the Achievements screen.
+
+> [!NOTE]
+> This will not prevent you from earning gems or contributing to the class gem pool - it's all client side. That said, it may become more difficult to access the Customize Khanmigo page with this filter enabled. 
+
 ### Legacy Filter
 > [!NOTE]
 > You probably don't need to use this.
@@ -28,15 +38,36 @@ For more info on the legacy filter, see the [old repo](https://github.com/TheReb
 
 ## Installation
 
-There are a couple of paths to installing this. One is much easier than the other. 
+There are a couple of paths to installing this. One is much easier than the other. But first, you'll need an adblocker.
+
+Use [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on Firefox, or [AdGuard](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) on Chrome/Chromium. Both of these are free and open-source. 
+
+<details>
+  <summary>**Adblock Plus is not recommended.** Click to see why.</summary>
+
+  They became corporate shills. Back in the early 2010s they implemented a feature called "Acceptable Ads" and allowed large corporations to pay them to allow their ads through. It was a way to support advertising as a business model without having to deal with the incredibly annoying stuff. Sounds great!...on paper. 
+  
+  The reality is that all of this was (and still is) enabled on installations without the user's consent, much like how Khanmigo is forced on students regardless of whether they want to use it. Not to mention, basically saying "Hey, we're an adblocker, but we'll accept bribes to let your ads through!" is a pretty scummy practice if you ask me. 
+  
+  It is worth noting that the Acceptable Ads program does allow small websites/advertisers to enter for free, so it wasn't entirely biased toward rich corpos. You can also disable "Acceptable Ads" in the main settings page of ABP if you wish.
+  
+  There's also just the fact that they have a premium version -- and, as a matter of fact, give you ads for that as well if you don't also disable those, this time buried in the "Advanced" settings. Imagine making an adblocker and then having the audacity to throw ads into the adblocker itself. Meanwhile, uBlock Origin is not only free and open source, but its developer, Gorhill, [won't even accept donations](https://github.com/gorhill/uBlock/wiki/Why-don't-you-accept-donations%3F). 
+
+</details>
 
 ### Quick Install
 
-[Use this link](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo-reimagined%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-reimagined.txt&amp;title=Anti%20Khanmigo%20Reimagined) to add this filter to your adblocker quickly. 
+You can use one or both of the below links to add this to your adblocker.
+
+* [Add the Khanmigo filter](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo-reimagined%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-reimagined.txt&amp;title=Anti%20Khanmigo%20Reimagined)
+* [Add the Gem filter](https://subscribe.adblockplus.org/?location=https%3A%2F%2Fraw.githubusercontent.com%2FTheRebeLiasOne%2Fanti-khanmigo-reimagined%2Frefs%2Fheads%2Fmain%2Fanti-khanmigo-gem-filter.txt&title=Anti%20Khanmigo%20Gems)
 
 ### Manual Installation
 
-See the instructions for your adblocker below on manually adding the filter list. The link you'll need to use is: https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-reimagined.txt
+See the instructions for your adblocker below on manually adding the filter list. The link(s) you'll need to use are below: 
+
+* **For the Khanmigo filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-reimagined.txt
+* **For the Gem filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-gem-filter.txt
 
 * [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [AdGuard extension](https://adguard.com/kb/adguard-browser-extension/features/filters/#custom-filters)
