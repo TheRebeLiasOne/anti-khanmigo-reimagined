@@ -32,9 +32,15 @@ Focuses on gem-related content. Specifically, it blocks:
 > [!NOTE]
 > You probably don't need to use this.
 
-The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obselete for students. Personal accounts still have the old UI, but they don't need Khanmigo either.  
+The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obselete for students. Personal accounts still have the old UI, but they aren't forced to use Khanmigo either. 
 
 For more info on the legacy filter, see the [old repo](https://github.com/TheRebeLiasOne/anti-khanmigo).
+
+<details>
+  <summary>Why aren't the old and new filters combined?</summary>
+
+  Two reasons. For one, I wanted to clearly distinguish the old filter as unsupported and no longer being updated. Second, Manifest V3-based adblockers are limited in the number of custom filters they're allowed to have (thanks, Google!), so I wanted users to be able to use the least possible while still getting a full blocking experience.
+</details>
 
 ## Installation
 
@@ -43,7 +49,7 @@ There are a couple of paths to installing this. One is much easier than the othe
 Use [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/) on Firefox, or [AdGuard](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) on Chrome/Chromium. Both of these are free and open-source. 
 
 <details>
-  <summary>**Adblock Plus is not recommended.** Click to see why.</summary>
+  <summary><strong>Adblock Plus is not recommended.</strong> Click to see why.</summary>
 
   They became corporate shills. Back in the early 2010s they implemented a feature called "Acceptable Ads" and allowed large corporations to pay them to allow their ads through. It was a way to support advertising as a business model without having to deal with the incredibly annoying stuff. Sounds great!...on paper. 
   
