@@ -18,7 +18,7 @@ The basic filter is focused on blocking non-essential AI features (those which a
 * Option to customize Khanmigo's avatar with gems.
 * Khanmigo tab in settings (where you personalize Khanmigo's voice.
 
-## Gem Filter
+### Gem Filter
 Focuses on gem-related content. Specifically, it blocks:
 * Gems on the top right corner of the home page
 * Gems on the bottom right corner of the home page
