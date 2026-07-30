@@ -55,6 +55,8 @@ Use [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin
 
 </details>
 
+If you're for some reason against blocking ads, you can install them and disable every filter, then just run with the ones I have. 
+
 ### Quick Install
 
 You can use one or both of the below links to add this to your adblocker.
