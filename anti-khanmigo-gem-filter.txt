@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Anti-Khanmigo Gem Filter
 ! Description: Block Gems on Khan Academy Classroom
-! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
+! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo-reimagined
 ! Expires: 1 day (update frequency)
 ! Version: 2
 
