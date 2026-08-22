@@ -23,8 +23,8 @@ classroom.khanacademy.org##button:has-text("Writing Coach")
 classroom.khanacademy.org##button:has-text("Khanmigo activities")
 
 !! Khanmigo Sidebar
-classroom.khanacademy.org##main > div:has(canvas[data-testid="khanmigo-canvas"])
-classroom.khanacademy.org##main > div:has(input[aria-label="Resize panes by click-and-drag or arrow keys"])
+classroom.khanacademy.org##._1wf3fgmt
+classroom.khanacademy.org##._14bz70p3
 
 !! Khanmigo in Background on Achievement page
 ||cdn.kastatic.org/classroom-learner/images/383089f85f035abc-spot_illo@2x.png$image
