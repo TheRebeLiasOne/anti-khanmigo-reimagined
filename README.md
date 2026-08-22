@@ -16,7 +16,7 @@ The basic filter is focused on blocking non-essential AI features (those which a
 * "Tutor me" option in the sidebar
 * Khanmigo options in the Activity History
 * Option to customize Khanmigo's avatar with gems.
-* Khanmigo tab in settings (where you personalize Khanmigo's voice.
+* Khanmigo tab in settings (where you personalize Khanmigo's voice).
 
 ### Gem Filter
 Focuses on gem-related content. Specifically, it blocks:
@@ -32,7 +32,7 @@ Focuses on gem-related content. Specifically, it blocks:
 > [!NOTE]
 > You probably don't need to use this.
 
-The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obselete for students. Personal accounts still have the old UI, but they aren't forced to use Khanmigo either. 
+The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obsolete for students. Personal accounts still have the old UI, but they aren't forced to use Khanmigo either. 
 
 For more info on the legacy filter, see the [old repo](https://github.com/TheRebeLiasOne/anti-khanmigo).
 
@@ -76,7 +76,7 @@ See the instructions for your adblocker below on manually adding the filter list
 
 * **For the Khanmigo filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-reimagined.txt
 * **For the Gem filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-gem-filter.txt
-
+Instructions for:
 * [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [AdGuard extension](https://adguard.com/kb/adguard-browser-extension/features/filters/#custom-filters)
 * [AdBlock Plus](https://help.adblockplus.org/adblock-plus-help-center/add-or-remove-a-custom-filter)
