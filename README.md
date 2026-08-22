@@ -76,7 +76,8 @@ See the instructions for your adblocker below on manually adding the filter list
 
 * **For the Khanmigo filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-reimagined.txt
 * **For the Gem filter:** https://raw.githubusercontent.com/TheRebeLiasOne/anti-khanmigo-reimagined/refs/heads/main/anti-khanmigo-gem-filter.txt
-Instructions for:
+
+See instructions for:
 * [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Filter-lists-from-around-the-web)
 * [AdGuard extension](https://adguard.com/kb/adguard-browser-extension/features/filters/#custom-filters)
 * [AdBlock Plus](https://help.adblockplus.org/adblock-plus-help-center/add-or-remove-a-custom-filter)
