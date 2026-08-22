@@ -3,7 +3,7 @@
 ! Description: Block Khanmigo on Khan Academy Classroom
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 1 day (update frequency)
-! Version: 4
+! Version: 5
 
 !! Khanmigo page - if document blocking doesn't work, just delete the chat input. 
 !! TODO: Hide all chat input buttons, not just the text field 
