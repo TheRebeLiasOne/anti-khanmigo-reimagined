@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
 ! Title: Anti-Khanmigo Reimagined
 ! Description: Block Khanmigo on Khan Academy Classroom
-! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
+! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo-reimagined
 ! Expires: 1 day (update frequency)
-! Version: 5
+! Version: 7
 
 !! Khanmigo page - if document blocking doesn't work, just delete the chat input. 
 !! TODO: Hide all chat input buttons, not just the text field 
@@ -28,3 +28,9 @@ classroom.khanacademy.org##._14bz70p3
 
 !! Khanmigo in Background on Achievement page
 ||cdn.kastatic.org/classroom-learner/images/383089f85f035abc-spot_illo@2x.png$image
+
+!! Khanmigo in Settings
+classroom.khanacademy.org##[href="/learner/settings/khanmigo"]:upward(1)
+
+!! All (or most) appearances of Khanmigo avatar
+classroom.khanacademy.org##[data-testid="khanmigo-canvas"]
