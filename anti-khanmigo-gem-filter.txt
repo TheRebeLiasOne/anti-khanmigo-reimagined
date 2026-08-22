@@ -3,7 +3,7 @@
 ! Description: Block Gems on Khan Academy Classroom
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo
 ! Expires: 1 day (update frequency)
-! Version: 1
+! Version: 2
 
 !! -- Gems --
 
