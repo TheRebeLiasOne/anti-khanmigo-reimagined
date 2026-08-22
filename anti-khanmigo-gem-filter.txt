@@ -15,4 +15,4 @@ classroom.khanacademy.org##button#gem-side-drawer-flyout-launcher
 classroom.khanacademy.org##li[aria-roledescription="carousel card"]:has-text("Gem challenge")
 
 !! Gems on Achievements screen
-classroom.khanacademy.org/learner/achievements##h2:has-text("Gem challenges"):upward(4)
+classroom.khanacademy.org##h2:has-text("Gem challenges"):upward(4)
