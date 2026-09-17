@@ -30,9 +30,9 @@ Focuses on gem-related content. Specifically, it blocks:
 
 ### Legacy Filter
 > [!NOTE]
-> You probably don't need to use this.
+> You probably don't need this, except in certain countries.
 
-The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obsolete for students. Personal accounts still have the old UI, but they aren't forced to use Khanmigo either. 
+The Legacy Filter is focused on AI features in the old version of Khan Academy. This filter is no longer being updated, as this UI is mostly obsolete for students. Personal accounts still have the old UI, but they aren't forced to use Khanmigo either. You may also find use in the legacy filter if your country has not yet received the Khan Academy "reimagined" update, which is scheduled to roll out globally in early 2027.
 
 For more info on the legacy filter, see the [old repo](https://github.com/TheRebeLiasOne/anti-khanmigo).
 
