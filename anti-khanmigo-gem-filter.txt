@@ -2,17 +2,25 @@
 ! Title: Anti-Khanmigo Gem Filter
 ! Description: Block Gems on Khan Academy Classroom
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo-reimagined
-! Expires: 1 day (update frequency)
-! Version: 2
+! Expires: 3 days (update frequency)
+! Version: 3
 
 !! -- Gems --
 
 !! Homepage
-classroom.khanacademy.org##aside > div > div:has-text("Gem challenge")
+classroom.khanacademy.org##aside > div > div:has(img[src="https://cdn.kastatic.org/classroom-learner/images/95b68dbb0dbbc743-gem-icon-more-detail.svg"])
+
+classroom.khanacademy.org##h2[aria-label="Gem challenge"]:upward(5)
 classroom.khanacademy.org##button#gem-side-drawer-flyout-launcher
+classroom.khanacademy.org##div > span > div > svg[aria-label="Gems"]:upward(3)
+
+!! Gem reward on "mission" screen
+classroom.khanacademy.org##svg[aria-label='gem reward']:upward(3)
 
 !! Gem Card on Assignment Completion Screen
-classroom.khanacademy.org##li[aria-roledescription="carousel card"]:has-text("Gem challenge")
+!classroom.khanacademy.org##li[aria-roledescription="carousel card"]:has-text("Gem challenge")
+classroom.khanacademy.org##img[src="https://cdn.kastatic.org/classroom-learner/images/3f4d154bdbb626c5-treasure-chest.svg"]:upward(4)
+classroom.khanacademy.org##li:has(div[aria-label="An animated gem twirls into view and sparkles"])
 
 !! Gems on Achievements screen
-classroom.khanacademy.org##h2:has-text("Gem challenges"):upward(4)
+classroom.khanacademy.org/###gem-challenges-filter:upward(5)
