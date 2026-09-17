@@ -3,24 +3,25 @@
 ! Description: Block Khanmigo on Khan Academy Classroom
 ! Homepage: https://github.com/TheRebeLiasOne/anti-khanmigo-reimagined
 ! Expires: 1 day (update frequency)
-! Version: 7
+! Version: 8
 
 !! Khanmigo page - if document blocking doesn't work, just delete the chat input. 
 !! TODO: Hide all chat input buttons, not just the text field 
 ||classroom.khanacademy.org/learner/tutor-me^$document
 classroom.khanacademy.org###khanmigo-chat-input
 !! Khanmigo Avatar
-classroom.khanacademy.org##button:has-text("Customize Khanmigo")
+classroom.khanacademy.org##div#gem-side-drawer-flyout > div > button
+classroom.khanacademy.org##div#gem-side-drawer-flyout > div > div._lv5tkbv
 
 !! Home Screen
 classroom.khanacademy.org##[data-testid="hero-khanmigo-wrapper"]
-classroom.khanacademy.org##li:has-text("Tutor Me")
+classroom.khanacademy.org##li:has(a[href="/learner/tutor-me"])
 
 !! Khanmigo-related Activity History
 classroom.khanacademy.org##[href="/learner/history/chat-history"]
 ||classroom.khanacademy.org/learner/history/chat-history^$document
-classroom.khanacademy.org##button:has-text("Writing Coach")
-classroom.khanacademy.org##button:has-text("Khanmigo activities")
+classroom.khanacademy.org/learner/history/overview###\:rb\: > button._keawyyc:nth-of-type(8)
+classroom.khanacademy.org/learner/history/overview###\:rb\: > button._keawyyc:nth-of-type(9)
 
 !! Khanmigo Sidebar
 classroom.khanacademy.org##._1wf3fgmt
@@ -34,3 +35,4 @@ classroom.khanacademy.org##[href="/learner/settings/khanmigo"]:upward(1)
 
 !! All (or most) appearances of Khanmigo avatar
 classroom.khanacademy.org##[data-testid="khanmigo-canvas"]
+
